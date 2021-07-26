@@ -20,6 +20,8 @@ services:
       - PGDATA=/var/lib/postgresql/data
     volumes:
       - pg-data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
 
   redis:
     image: redis:5.0.6-alpine
