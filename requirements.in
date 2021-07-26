@@ -1,0 +1,37 @@
+-i https://pypi.org/simple
+
+celery
+django-cors-headers
+django-environ
+django-redis
+drf-spectacular
+django-storages[boto3]
+djangorestframework
+djangorestframework-simplejwt
+psycopg2
+pytz
+sentry-sdk
+django<4.0,>=3.1
+pyuwsgi
+
+# dev
+black
+django-debug-toolbar
+django-extensions
+flake8
+flake8-blind-except
+flake8-bugbear
+flake8-debugger
+flake8-isort
+flake8-print
+flake8-quotes
+factory_boy
+ipdb
+ipython
+isort[requirements_deprecated_finder]
+mypy
+pep8-naming
+pytest
+pytest-cov
+pytest-django
+pytest-freezegun
