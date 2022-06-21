@@ -1,7 +1,9 @@
 from django.conf import settings
 from django.urls import include, path
 
-urlpatterns = []
+urlpatterns = [
+    path("", include("activities.urls")),
+]
 
 if settings.DEBUG:
 

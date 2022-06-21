@@ -5,7 +5,10 @@ from django.urls import include, path, re_path
 from django.views.static import serve
 
 
-urlpatterns = [path("admin/", admin.site.urls), path("v1/", include("config.v1_urls"))]
+urlpatterns = [
+    path("admin/", admin.site.urls),
+    path("v1/", include("config.v1_urls")),
+]
 
 
 if settings.DEBUG:
